@@ -1,0 +1,16 @@
+   77  ls
+   78  ls -a
+   79  source .venv/bin/activate
+   80  which python3
+   81  pip list
+   82  pip install requests
+   83  pip list
+   84  deactivate
+   85  which python3
+   86  man ls
+   87  ls -h
+   88  man man
+   89  cd cod week0
+   90  history
+   91  python3
+   92  pwd
