@@ -30,3 +30,25 @@ Ans : It printed :
 
  Q8. What are the first seven characters of your commit called, and what are they for?
  Ans : They are called the Short SHA-1 Hash (or short commit hash). They serve as a unique identifier for that specific commit snapshot so one can reference, inspect, or revert back to it later.
+
+Q9. You now have two commits. Without looking it up: what are the four steps of the loop you just did twice?
+Ans : The four steps of the Git development loop are:
+1. Modify: Make changes or create files in your working directory.
+2. Stage: Run git add to prepare your changes for the next snapshot.
+3. Commit: Run git commit to permanently record the staged changes into the local history.
+4. Review / Verify: Run git status or git log to inspect the state and history of your repository.
+
+Q10. Why does this file get a special name and a special place, rather than being called notes.md like everything else?
+Ans : The README.md file gets a special name and location because GitHub automatically looks for this exact file in the main folder to display as the project's homepage. It serves as the introductory guide for anyone visiting the repository.
+
+Q11. What did gh auth login do that means you will not be asked for a password when you push?
+Ans : It saves a secure digital access key (token) on your computer. GitHub reads this key automatically, so the user doesn't have to type your password every time.
+
+Q12. Refresh the repository page on GitHub. What is showing on the front page, and why that file?
+Ans : The README.md file is showing because GitHub automatically displays this specific file on the front page as the project's introduction.
+
+Q13. Run git log --oneline again. Did pushing change your local history in any way?
+Ans : No.
+
+Q14. Your repository is private but your TAs can now read it. In your own words, what is the difference between a repository being private and a repository not existing on GitHub at all?
+Ans : Private Repository exists online. It is safely backed up, but only the user and people they invite can see it. But if it does not exist, it is completely missing from GitHub. It is not backed up online, and nobody can access it.
